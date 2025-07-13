@@ -1,4 +1,5 @@
 <?php
+
 header('Content-Type: application/json');
 header('Cache-Control: no-cache, no-store, must-revalidate');
 

@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $loginParams = [$user['user_id']];
         sqlsrv_query($conn, $loginInsertSQL, $loginParams);
 
-        header("Location: index.html");
+        header("Location: index.php");
         exit();
     } else {
         $errors[] = "Invalid username or password.";
